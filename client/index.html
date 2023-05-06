@@ -2,9 +2,65 @@
 <html>
   <head>
     <title>Back End Assessment</title>
+    <link rel="stylesheet" href="index.css">
   </head>
+
   <body class="container">
+
+    
+    <h3>Receive a Compliment/Fortune</h3>
+    
     <button id="complimentButton">Get a compliment</button>
+    
+    <br>
+    
+    <button id="fortuneButton">Get a fortune</button>
+    
+    <br>
+    <form class="receipt" id = "receipt">
+    
+      <label for="deletedFortune">Delete a fortune
+        <input id = "deletedFortune" name = "deletedFortune" type = "text" 
+        placeholder = "Type the fortune you want to delete" style = "width: 315.5px">
+      </label>
+
+      <br>
+
+      <button id = "deleteButton">Delete</button>
+
+    </form>
+    
+    <form class="contact" id = "contact">
+      
+      <h3>Contact Us</h3>
+
+        <label for="name_first">First Name
+          <input id = "name_first" name = "name_first" type = "text" style = "width: 315.5px">
+        </label>
+
+        <br>
+        
+        <label for="name_last">Last Name
+          <input id = "name_last" name = "name_last" type = "text" style = "width: 315.5px">
+        </label>
+        
+        <br>
+        
+        <label for="email">Email
+          <input id = "email" name = "email" type = "text" style = "width: 315.5px">
+        </label>
+        
+        <br>
+        
+        <label for="message">Message
+          <input id = "message" name = "message" type = "text" style = "width: 315.5px">
+        </label>
+        
+        <br>
+        
+        <button id = "submit">Submit</button>
+
+    </form>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

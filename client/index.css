@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vh;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.receipt {
+    display: flex;
+    flex-direction: column;
+    border: radius 5px;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    border: radius 5px;
+    padding: 10px;
+}
